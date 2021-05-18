@@ -1,0 +1,56 @@
+Node js is a run time javascript built on chrome v8 javascript engine.
+Node js is a javascript running on server.
+REPL: Use experimenting with javascript and to debug node js
+        Read- Evaluate-Print - Loop
+
+callback.
+Ex:Defination
+        const Hello =(address,callback)=>{
+                        request({url:url,json:true},(error,response) =>{
+                                if(error){
+                                        callback(error)
+                                }else{
+                                        callback(data)
+                                }
+                        } )
+        }
+calling :
+Hello('address',(error,data)=>{
+        console.log(data)
+})
+------------------------
+callback chaining:
+
+-----------------------
+ES6: Object property shorthand and object destruction
+
+
+
+destruction: reading a property from a file.
+
+const product ={
+        name:'Laptop',
+        price:20
+}
+
+// reading 
+const name=product.name
+
+or 
+const {name:ProductName,price} = product
+console.log(ProductName)
+console.log(price)
+-------------------------------------------------
+Http request library:
+
+response.on
+response.end
+response.end
+-------------------------------------
+Web Server(express):
+
+npm init -y - to init a project with defaults
+
+
+
+
